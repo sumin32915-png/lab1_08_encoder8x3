@@ -1,0 +1,9 @@
+[1] PASS 로그
+RUN C:\msys64\mingw64\bin\vvp.EXE -N C:\Users\sumin\lab1_08_encoder8to3\build\sim\run-c3283cbd37a84326b0e95da344971965\sim.vvp
+VCD info: dumpfile wave.vcd opened for output.
+LAB1_PASS encoder8x3 cases=256
+C:\Users\sumin\lab1_08_encoder8to3\sim\tb_encoder8x3.sv:20: $finish called at 2560000 (1ps)
+
+[2] FAIL 로그
+FATAL: C:\Users\sumin\lab1_08_encoder8to3\sim\tb_encoder8x3.sv:15: FAIL encoder8x3 vector=1 expected=7 actual=6
+       Time: 20000  Scope: tb_encoder8x3
